@@ -15,19 +15,19 @@ import StageInternational from "./pages/Services/StageInternational.jsx";
 import ImmigrationCanadienne from "./pages/Services/ImmigrationCanadienne.jsx";
 import VoyagesDecouvertes from "./pages/Services/VoyagesDecouvertes.jsx";
 import StudentCompetitions from "./pages/Services/StudentCompetitions.jsx";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "./components/header.tsx";
+import Footer from "./components/footer.tsx";
 import WorkAccordionMenu from "./components/AccordionMenu.jsx";
-import Faq from "./Pages/faq";
+import Faq from "./Pages/faq.tsx";
 import Information from "./Pages/information.tsx";
-import DetailsInformation from "./Pages/detailsBlog/detailsInformation";
-import Contact from "./Pages/contact";
+import DetailsInformation from "./Pages/detailsBlog/detailsInformation.tsx";
+import Contact from "./Pages/contact.tsx";
 
 import LesPlusSollicites from "./Pages/LesPlusSollicites.tsx";
 import FormulaireEvaluation from "./Pages/FormulaireEvaluation.tsx";
 import CentreTelechargement from "./Pages/CentreTelechargement.tsx";
 import FormulaireStageInternational from "./Pages/FormulaireStageInternational.tsx";
-import CampsThematiques from "./Pages/ColoniesVacances1";
+import CampsThematiques from "./Pages/ColoniesVacances1.tsx";
 // Composant layout contenant Header, Footer et Outlet (zone de contenu dynamique)
 function RootLayout() {
   return (
