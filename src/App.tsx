@@ -6,7 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Home from "./Pages/home";
+import Home from "./Pages/home.tsx";
 import Apropos from "./Pages/Propos.tsx";
 import EtudesEtranger from "./pages/Services/EtudesEtranger.jsx";
 import WorkStudy from "./pages/Services/WorkStudy.jsx";
