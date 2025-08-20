@@ -1,8 +1,14 @@
 import image1 from "../../assets/work-img1.jpg";
 import image2 from "../../assets/work-study1.avif";
 import DivNavBar from "../../components/divNavBar";
-import WorkAccordionMenu from "../../components/AccordionMenu";
+import WorkAccordionMenu from "../../components/AccordionMenu.jsx";
 import { Link } from "react-router-dom";
+
+declare global {
+  interface Window {
+    gtag: (...args: unknown[]) => void;
+  }
+}
 
 export function WorkStudy() {
   return (

@@ -57,16 +57,16 @@ export function StageInternational() {
           </ul>
           <p className="text-justify">
             Il existe deux types de programmes d'échanges sous le visa J-1. Les
-            programmes J-1 Intern et le J-1 Trainee. ​ J-1 Intern: Vous devez
-            être régulièrement inscrit et poursuivre des études dans un
-            établissement d’enseignement supérieur agréé situé à l’extérieur des
-            États-Unis ou avoir obtenu votre diplôme moins de 12 mois avant le
-            début du programme J1 qui vous intéresse. ​ J-1 Trainee: Vous devez
-            être titulaire d'un diplôme d'un établissement d'enseignement
-            supérieure situé à l'extérieur des États-Unis et compter au moins un
-            an d'emploi dans votre domaine d'activité à l'extérieur des
-            États-Unis. Ou vous avez plus de cinq ans d'expérience de travail
-            dans votre domaine professionnel en dehors des États-Unis.
+            programmes J-1 Intern et le J-1 Trainee. J-1 Intern: Vous devez être
+            régulièrement inscrit et poursuivre des études dans un établissement
+            d’enseignement supérieur agréé situé à l’extérieur des États-Unis ou
+            avoir obtenu votre diplôme moins de 12 mois avant le début du
+            programme J1 qui vous intéresse. J-1 Trainee: Vous devez être
+            titulaire d'un diplôme d'un établissement d'enseignement supérieure
+            situé à l'extérieur des États-Unis et compter au moins un an
+            d'emploi dans votre domaine d'activité à l'extérieur des États-Unis.
+            Ou vous avez plus de cinq ans d'expérience de travail dans votre
+            domaine professionnel en dehors des États-Unis.
           </p>
           <ul className="list-disc ml-6 sm:ml-10">
             <li>Programme de placement à la Carte ou Personnalisé</li>
@@ -130,7 +130,7 @@ export function StageInternational() {
             <li>
               Nous contrôlons chaque programme du début à la fin par des
               correspondances périodiques, des visites de sites et des
-              évaluations en vue de juger les progrès . ​
+              évaluations en vue de juger les progrès.
             </li>
             <li>
               Advisers fournit une liste complète des maladies et des accidents
@@ -151,13 +151,13 @@ export function StageInternational() {
           </ul>
           <p className="text-justify w-full lg:w-[50%] rounded-2xl bg-blue-900 text-white p-6 lg:p-10">
             <span className="text-xl font-bold text-red-700">A SAVOIR </span>
-            <br /> Demande d'admission : toute l'année ​ Durée du programme
-            d'Intern : 1-12 mois ​ Durée du programme de Trainee: 1-18 mois *
-            *Les Programmes de Trainee en Hôtellerie, Tourisme, Restauration,
-            Gestion et Agriculture, Foresterie et Pêche les catégories sont
-            limitées à 12 mois. ​ Assurance maladie et accident: obligatoire
-            Aide au logement: fournie Salaire à percevoir: négociable entre la
-            société hôte et le l"étudiant Heures hebdomadaires de formation en
+            <br /> Demande d'admission : toute l'année Durée du programme
+            d'Intern : 1-12 mois Durée du programme de Trainee: 1-18 mois * *Les
+            Programmes de Trainee en Hôtellerie, Tourisme, Restauration, Gestion
+            et Agriculture, Foresterie et Pêche les catégories sont limitées à
+            12 mois. Assurance maladie et accident: obligatoire Aide au
+            logement: fournie Salaire à percevoir: négociable entre la société
+            hôte et le l"étudiant Heures hebdomadaires de formation en
             entreprise: 32 heures requises le minimum jusqu'à 40 heures Travail
             non qualifié: strictement interdit Emploi hors programme (deuxième
             emploi): strictement interdit Changement de société d'accueil: peu

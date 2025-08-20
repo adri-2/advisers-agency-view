@@ -8,8 +8,8 @@ import {
 
 import Home from "./Pages/home";
 import Apropos from "./Pages/Propos";
-import EtudesEtranger from "./pages/Services/EtudesEtranger";
-import WorkStudy from "./pages/Services/WorkStudy";
+import EtudesEtranger from "./Pages/Services/EtudesEtranger";
+import WorkStudy from "./Pages/Services/WorkStudy";
 import ColoniesVacances from "./pages/Services/ColoniesVacances";
 import StageInternational from "./pages/Services/StageInternational";
 import ImmigrationCanadienne from "./pages/Services/ImmigrationCanadienne";
