@@ -1,0 +1,16 @@
+/* Cache les flèches pour Webkit */
+.scrollbar-hide-arrows::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* Optionnel : personnalise l'aspect de la barre */
+.scrollbar-hide-arrows::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Cache les flèches pour Firefox */
+.scrollbar-hide-arrows {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
