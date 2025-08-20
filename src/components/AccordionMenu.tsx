@@ -1,5 +1,5 @@
 import { useState } from "react";
-import image2 from "../assets/work-study1.avif";
+// import image2 from "../assets/work-study1.avif";
 
 const accordionData = [
   {
@@ -252,7 +252,21 @@ const accordionData = [
   },
 ];
 
-function AccordionItem({ id, title, content, isExpanded, onToggle }) {
+type AccordionItemProps = {
+  id: number;
+  title: string;
+  content: React.ReactNode;
+  isExpanded: boolean;
+  onToggle: (id: number) => void;
+};
+
+function AccordionItem({
+  id,
+  title,
+  content,
+  isExpanded,
+  onToggle,
+}: AccordionItemProps) {
   return (
     <div className="bg-white  shadow transition-all duration-300 overflow-hidden border-b-2 border-gray-200">
       <button
@@ -282,9 +296,9 @@ function AccordionItem({ id, title, content, isExpanded, onToggle }) {
 }
 
 export function WorkAccordionMenu() {
-  const [expandedIds, setExpandedIds] = useState([]);
+  const [expandedIds, setExpandedIds] = useState<number[]>([]);
 
-  const handleToggle = (id) => {
+  const handleToggle = (id: number) => {
     if (expandedIds.includes(id)) {
       setExpandedIds(expandedIds.filter((itemId) => itemId !== id));
     } else {
