@@ -6,28 +6,28 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Home from "./Pages/home.tsx";
-import Apropos from "./Pages/Propos.tsx";
-import EtudesEtranger from "./pages/Services/EtudesEtranger.jsx";
-import WorkStudy from "./pages/Services/WorkStudy.jsx";
-import ColoniesVacances from "./pages/Services/ColoniesVacances.jsx";
-import StageInternational from "./pages/Services/StageInternational.jsx";
-import ImmigrationCanadienne from "./pages/Services/ImmigrationCanadienne.jsx";
-import VoyagesDecouvertes from "./pages/Services/VoyagesDecouvertes.jsx";
-import StudentCompetitions from "./pages/Services/StudentCompetitions.jsx";
-import Header from "./components/header.tsx";
-import Footer from "./components/footer.tsx";
-import WorkAccordionMenu from "./components/AccordionMenu.jsx";
-import Faq from "./Pages/faq.tsx";
-import Information from "./Pages/information.tsx";
-import DetailsInformation from "./Pages/detailsBlog/detailsInformation.tsx";
-import Contact from "./Pages/contact.tsx";
+import Home from "./Pages/home";
+import Apropos from "./Pages/Propos";
+import EtudesEtranger from "./pages/Services/EtudesEtranger";
+import WorkStudy from "./pages/Services/WorkStudy";
+import ColoniesVacances from "./pages/Services/ColoniesVacances";
+import StageInternational from "./pages/Services/StageInternational";
+import ImmigrationCanadienne from "./pages/Services/ImmigrationCanadienne";
+import VoyagesDecouvertes from "./pages/Services/VoyagesDecouvertes";
+import StudentCompetitions from "./pages/Services/StudentCompetitions";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import WorkAccordionMenu from "./components/AccordionMenu";
+import Faq from "./Pages/faq";
+import Information from "./Pages/information";
+import DetailsInformation from "./Pages/detailsBlog/detailsInformation";
+import Contact from "./Pages/contact";
 
-import LesPlusSollicites from "./Pages/LesPlusSollicites.tsx";
-import FormulaireEvaluation from "./Pages/FormulaireEvaluation.tsx";
-import CentreTelechargement from "./Pages/CentreTelechargement.tsx";
-import FormulaireStageInternational from "./Pages/FormulaireStageInternational.tsx";
-import CampsThematiques from "./Pages/ColoniesVacances1.tsx";
+import LesPlusSollicites from "./Pages/LesPlusSollicites";
+import FormulaireEvaluation from "./Pages/FormulaireEvaluation";
+import CentreTelechargement from "./Pages/CentreTelechargement";
+import FormulaireStageInternational from "./Pages/FormulaireStageInternational";
+import CampsThematiques from "./Pages/ColoniesVacances1";
 // Composant layout contenant Header, Footer et Outlet (zone de contenu dynamique)
 function RootLayout() {
   return (
