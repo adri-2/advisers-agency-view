@@ -67,14 +67,12 @@ export function Apropos() {
           <h1 className="text-2xl font-bold">Nos Valeurs</h1>
           <ul className="list-disc pl-5">
             <li className="text-justify text-lg">
-              <span className="text-justify font-bold text-lg">Célérité</span>{" "}
-              :​ En général, le temps de traitement des dossiers n’excède pas 04
+              <span className="text-justify font-bold text-lg">Célérité</span> :
+              En général, le temps de traitement des dossiers n’excède pas 04
               mois, de l'inscription à la demande de visa.
             </li>
             <li className="text-justify text-lg">
-              <span className="text-justify font-bold text-lg">
-                ​Efficacité
-              </span>{" "}
+              <span className="text-justify font-bold text-lg">Efficacité</span>{" "}
               : L’expérience acquise depuis 2006, nous permet de vous conseiller
               efficacement sur les chances de réussite de votre projet.
             </li>

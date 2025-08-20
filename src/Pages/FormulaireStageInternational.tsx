@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import imgbg from "../assets/intership_usa_advisers_agency.avif";
 import DivNavBar from "../components/divNavBar";
 
@@ -13,11 +13,15 @@ export default function FormulaireStageInternational() {
     parcours: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     // Traitement du formulaire ici
     alert("Formulaire envoyé !");

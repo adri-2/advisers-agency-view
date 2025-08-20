@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import DivNavBar from "../components/divNavBar";
 
 const FormulaireEvaluation = () => {
@@ -15,11 +15,13 @@ const FormulaireEvaluation = () => {
     voyage: "",
   });
 
-  const handleChange = (e) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     alert("Formulaire soumis !");
   };
@@ -249,68 +251,68 @@ export default FormulaireEvaluation;
 // import { useState } from "react";
 // import bgImg from "./belgique.jpg"; // ton image de fond
 
-const Accordions = () => {
-  const [openIndex, setOpenIndex] = useState(null);
+// const Accordions = () => {
+//   const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleAccordion = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+//   const toggleAccordion = (index) => {
+//     setOpenIndex(openIndex === index ? null : index);
+//   };
 
-  const sections = [
-    {
-      title: "Généralités sur le pays",
-      content: "Infos générales sur la Belgique...",
-    },
-    {
-      title: "Système éducatif du pays",
-      content: "Description du système éducatif...",
-    },
-    {
-      title: "Pièces requises pour une admission",
-      content: "Liste des documents nécessaires...",
-    },
-    {
-      title: "Filières et Rentrées académiques",
-      content: "Les différentes filières et périodes d'admission...",
-    },
-    {
-      title: "Niveau de langue requis",
-      content: "Exemple : B2 en français ou anglais...",
-    },
-    {
-      title: "Procédures de Visa et durée procédures",
-      content: "Infos sur la demande de visa...",
-    },
-    {
-      title: "Quelques raisons d’étudier en Belgique",
-      content: "Arguments et avantages...",
-    },
-  ];
+//   const sections = [
+//     {
+//       title: "Généralités sur le pays",
+//       content: "Infos générales sur la Belgique...",
+//     },
+//     {
+//       title: "Système éducatif du pays",
+//       content: "Description du système éducatif...",
+//     },
+//     {
+//       title: "Pièces requises pour une admission",
+//       content: "Liste des documents nécessaires...",
+//     },
+//     {
+//       title: "Filières et Rentrées académiques",
+//       content: "Les différentes filières et périodes d'admission...",
+//     },
+//     {
+//       title: "Niveau de langue requis",
+//       content: "Exemple : B2 en français ou anglais...",
+//     },
+//     {
+//       title: "Procédures de Visa et durée procédures",
+//       content: "Infos sur la demande de visa...",
+//     },
+//     {
+//       title: "Quelques raisons d’étudier en Belgique",
+//       content: "Arguments et avantages...",
+//     },
+//   ];
 
-  return (
-    <div className="min-h-screen bg-cover bg-center flex items-center justify-center">
-      <div className="bg-white/80 rounded-lg shadow-lg w-[400px] p-6">
-        <h2 className="text-xl font-bold text-center mb-6 text-blue-900">
-          Qualité à petit prix
-        </h2>
+//   return (
+//     <div className="min-h-screen bg-cover bg-center flex items-center justify-center">
+//       <div className="bg-white/80 rounded-lg shadow-lg w-[400px] p-6">
+//         <h2 className="text-xl font-bold text-center mb-6 text-blue-900">
+//           Qualité à petit prix
+//         </h2>
 
-        {sections.map((section, index) => (
-          <div key={index} className="border-b border-gray-300">
-            <button
-              onClick={() => toggleAccordion(index)}
-              className="w-full flex justify-between items-center py-3 text-gray-700 font-medium hover:text-blue-700"
-            >
-              {section.title}
-              <span>{openIndex === index ? "▲" : "▼"}</span>
-            </button>
-            {openIndex === index && (
-              <div className="p-3 text-gray-600">{section.content}</div>
-            )}
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
+//         {sections.map((section, index) => (
+//           <div key={index} className="border-b border-gray-300">
+//             <button
+//               onClick={() => toggleAccordion(index)}
+//               className="w-full flex justify-between items-center py-3 text-gray-700 font-medium hover:text-blue-700"
+//             >
+//               {section.title}
+//               <span>{openIndex === index ? "▲" : "▼"}</span>
+//             </button>
+//             {openIndex === index && (
+//               <div className="p-3 text-gray-600">{section.content}</div>
+//             )}
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
 
 // export default Accordions;

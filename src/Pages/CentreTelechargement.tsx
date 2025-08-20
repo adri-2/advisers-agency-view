@@ -1,4 +1,3 @@
-import React from "react";
 import DivNavBar from "../components/divNavBar";
 import { Link } from "react-router-dom";
 const downloads = {

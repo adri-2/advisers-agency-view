@@ -1,17 +1,17 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Caroussel from "../components/caroussel";
 import first from "../assets/first_home.avif";
 import second from "../assets/second_home.avif";
 import book from "../assets/book_home.avif";
 import chimi from "../assets/chimi_home.avif";
 import team from "../assets/Team work.png";
-import exams from "../assets/Exams-rafiki.png";
+// import exams from "../assets/Exams-rafiki.png";
 import { useEffect, useRef } from "react";
 
 const imagesList = [first, second, book, chimi];
 
 export function Home() {
-  const { id } = useParams();
+  // const { id } = useParams();
   return (
     <div className="z-10 w-full">
       <Caroussel images={imagesList} />
@@ -259,7 +259,7 @@ export function HorizontalList() {
     },
   ];
 
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const scroll = () => {

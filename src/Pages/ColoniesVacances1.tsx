@@ -3,8 +3,8 @@ import first from "../assets/first_home.avif";
 import second from "../assets/second_home.avif";
 import book from "../assets/book_home.avif";
 import chimi from "../assets/chimi_home.avif";
-import team from "../assets/Team work.png";
-import exams from "../assets/Exams-rafiki.png";
+// import team from "../assets/Team work.png";
+// import exams from "../assets/Exams-rafiki.png";
 import { Link } from "react-router-dom";
 const imagesList = [first, second, book, chimi];
 

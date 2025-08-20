@@ -58,7 +58,7 @@ export default function Header() {
               onClick={() => setMobileMenuOpen(true)}
               className="p-2.5 text-gray-700"
             >
-              <span className="sr-only">Open main menu</span>☰
+              <span className="sr-only">Open main menu</span>☰{mobileMenuOpen}
             </button>
           </div>
 
